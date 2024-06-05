@@ -1,0 +1,164 @@
+.video-banner {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.video-banner h1 {
+    margin: 0;
+    font-size: 4em;
+    animation: slideInFromLeft 1.5s ease-out;
+}
+
+.video-banner p {
+    margin: 10px 0;
+    font-size: 2em;
+    animation: slideInFromRight 1.5s ease-out;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+    .video-banner h1 {
+      font-size: 2em;
+    }
+  
+    .video-banner p {
+      font-size: 1em;
+    }
+  
+    .search-bar input {
+      width: 200px;
+      padding: 8px;
+    }
+  
+    .search-bar button {
+      padding: 8px;
+    }
+  }
+  
+  /* Medium screens (tablets and small laptops) */
+  @media (min-width: 481px) and (max-width: 1200px) {
+    .video-banner h1 {
+      font-size: 3em;
+    }
+  
+    .video-banner p {
+      font-size: 1.5em;
+    }
+  
+    .search-bar input {
+      width: 250px;
+      padding: 9px;
+    }
+  
+    .search-bar button {
+      padding: 9px;
+    }
+  }
+  
+  /* Large screens (desktops) */
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    .video-banner h1 {
+      font-size: 3.5em;
+    }
+  
+    .video-banner p {
+      font-size: 1.75em;
+    }
+  
+    .search-bar input {
+      width: 280px;
+      padding: 10px;
+    }
+  
+    .search-bar button {
+      padding: 10px;
+    }
+  }
+  
+  /* Extra large screens */
+  @media (min-width: 1601px) {
+    .video-banner h1 {
+      font-size: 4em;
+    }
+  
+    .video-banner p {
+      font-size: 2em;
+    }
+  
+    .search-bar input {
+      width: 300px;
+      padding: 10px;
+    }
+  
+    .search-bar button {
+      padding: 10px;
+    }
+  }

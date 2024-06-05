@@ -1,0 +1,74 @@
+.business-partners {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+.business-partners h2 {
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap; /* Ensure logos wrap on smaller screens */
+}
+
+.partners-logos img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Small screens (phones) */
+@media (min-width: 319px) and (max-width: 480px) {
+    .business-partners h2 {
+        font-size: 1.5em;
+    }
+
+    .partners-logos img {
+        max-width: 50px;
+        margin: 10px;
+    }
+}
+
+/* Medium screens (tablets and small laptops) */
+@media (min-width: 481px) and (max-width: 1200px) {
+    .business-partners h2 {
+        font-size: 1.75em;
+    }
+
+    .partners-logos img {
+        max-width: 80px;
+        margin: 15px;
+    }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1201px) and (max-width: 1600px) {
+    .business-partners h2 {
+        font-size: 2em;
+    }
+
+    .partners-logos img {
+        max-width: 100px;
+        margin: 20px;
+    }
+}
+
+/* Extra large screens */
+@media (min-width: 1601px) {
+    .business-partners h2 {
+        font-size: 2.5em;
+    }
+
+    .partners-logos img {
+        max-width: 120px;
+        margin: 25px;
+    }
+}
