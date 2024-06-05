@@ -16,14 +16,13 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    flex-wrap: wrap; /* Ensure logos wrap on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .partners-logos img {
     max-width: 100%;
     height: auto;
 }
-
 
 /* Small screens (phones) */
 @media (min-width: 319px) and (max-width: 480px) {

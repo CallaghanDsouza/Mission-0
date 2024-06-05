@@ -19,7 +19,7 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 40px;
-    flex-wrap: wrap; /* Allow filters to wrap on small screens */
+    flex-wrap: wrap; 
 }
 
 .search-filters p {
@@ -32,7 +32,7 @@
     font-size: 1em;
     border: 1px solid #ddd;
     border-radius: 4px;
-    min-width: 150px; /* Ensure a minimum width */
+    min-width: 150px; 
 }
 
 .search-filters button {
@@ -42,7 +42,7 @@
     border: none;
     cursor: pointer;
     border-radius: 4px;
-    min-width: 100px; /* Ensure a minimum width */
+    min-width: 100px; 
 }
 
 .events-grid {

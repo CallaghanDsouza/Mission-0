@@ -115,21 +115,22 @@
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+ 
+/* Mobile phone screens */
 @media (min-width: 319px) and (max-width: 480px) {
 
   .navbar {
-    width: 95%;
+    width: 97%;
+
   }
   .links ul,
   .login-signup-button {
-    display: none; /* Hide links and login/signup button on small screens */
+    display: none; 
   }
 
   .menu-icon {
     display: block;
     position: relative;
-     /* Show the menu icon on smaller screens */
   }
 
   .navbar-right {
@@ -138,7 +139,7 @@
   }
 
   .nav-links {
-    display: none; /* Hide the links by default on mobile */
+    display: none;
   }
 
   .navbar-right.open .nav-links {
@@ -165,7 +166,7 @@
   }
 
   .menu-icon {
-    display: block; /* Show the menu icon on smaller screens */
+    display: block; 
   }
 
   .navbar-right {
@@ -174,7 +175,7 @@
   }
 
   .nav-links {
-    display: none; /* Hide the links by default on mobile */
+    display: none; 
   }
 
   .navbar-right.open .nav-links {
@@ -201,11 +202,11 @@
 /* Large screens (desktops) */
 @media (min-width: 1201px) and (max-width: 1600px) {
   .links ul {
-    display: flex; /* Display links horizontally */
+    display: flex; 
   }
 
   .menu-icon {
-    display: block; /* Hide the menu icon on larger screens */
+    display: block; 
   }
 
   .navbar-right {
@@ -214,7 +215,7 @@
   }
 
   .nav-links {
-    display: none; /* Hide the links by default */
+    display: none; 
   }
 
   .navbar-right.open .nav-links {
@@ -241,11 +242,11 @@
 /* Extra large screens */
 @media (min-width: 1601px) {
   .links ul {
-    display: flex; /* Display links horizontally */
+    display: flex; 
   }
 
   .menu-icon {
-    display: block; /* Hide the menu icon on larger screens */
+    display: block; 
   }
 
   .navbar-right {
@@ -254,7 +255,7 @@
   }
 
   .nav-links {
-    display: none; /* Hide the links by default */
+    display: none; 
   }
 
   .navbar-right.open .nav-links {

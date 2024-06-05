@@ -173,31 +173,6 @@ body {
     margin: 5px 0 0;
 }
 
-.business-partners {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: whitesmoke;
-    color: #333;
-}
-
-.business-partners h2 {
-    font-size: 2em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 20px;
-}
-
-.partners-logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-}
-
-.partners-logos img {
-    max-width: 100px;
-    height: auto;
-}
-
 @media (min-width: 319px) and (max-width: 480px) {
     .text-content h1 {
         font-size: 1.5em;
